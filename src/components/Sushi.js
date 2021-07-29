@@ -4,8 +4,9 @@ function Sushi({ name, image, price }) {
   const [buttonClick, setButtonClick] = useState (false)
 
 
+
   function handleClick() {
-    setButtonClick(!buttonClick)
+    if setButtonClick(!buttonClick)
   }
 
   return (

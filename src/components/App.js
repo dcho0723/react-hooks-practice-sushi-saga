@@ -6,6 +6,7 @@ const API = "http://localhost:3001/sushis";
 
 function App() {
   const [sushiData, setSushiData] = useState([])
+  const [moneyRemaining, setMoneyRemaining] = useState(100)
 
   useEffect(() => {
     fetch(API)

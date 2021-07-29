@@ -6,7 +6,7 @@ function Sushi({ name, image, price }) {
 
 
   function handleClick() {
-    if setButtonClick(!buttonClick)
+    setButtonClick(!buttonClick)
   }
 
   return (
